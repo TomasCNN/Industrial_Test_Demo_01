@@ -18,7 +18,11 @@ namespace Industrial_Test_Demo_01
         {
             base.OnStartup(e);
 
-            if(new LoginWindow().)
+            if(new LoginWindow().ShowDialog() == true)
+            {
+                new MainWindow().ShowDialog();
+            }
+            Application.Current.Shutdown();
         }
     }
 }

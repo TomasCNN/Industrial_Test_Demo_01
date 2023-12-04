@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Industrial_Test_Demo_01.Views"
         mc:Ignorable="d"
-        Title="LoginWindow" Height="450" Width="800">
+        Background="Transparent" FontFamily="Microsoft YaHei" FontWeight="ExtraLight" ResizeMode="NoResize"
+        WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen"
+        Title="系统登录" Height="450" Width="800">
     <Grid>
         
     </Grid>
